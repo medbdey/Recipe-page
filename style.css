@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcd9e8;
+}
+
+.container{
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+.logo img{
+    width: 590px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+h1{
+    font-size: 40px;
+    font-family: 'outfit', sans-serif;
+    
+    color: #333;
+    margin-top: 20px;
+    margin-right: 150px;
+    padding-bottom: 30px;
+}
+.text1{
+    font-size: 13px;
+    color: gray;
+    width: 520px;
+    line-height: 20px;
+    margin-right: 110px;
+    padding-bottom: 70px;
+}
+.time{
+    font-size: 20px;
+    color: #7b284f;
+    margin-right: 400px;
+    padding-bottom: 20px;
+}
+.list-1{
+    margin-right: 250px;
+}
+.Preparation{
+    margin: 10px 0;
+}
+.first-list{
+    list-style-position: outside;
+    padding-left: 1.5em;
+    
+}
+.first-list li::marker{
+    content: "•          ";
+}
+span{
+    color: #5f574e;
+    font-weight: bold;
+}
+.ign{
+    margin: 10px 0;
+    margin-right: 100px;
+    color: #5f574e;
+}
+.second-list{
+    list-style-position: outside;
+    padding-left: 1.5em;
+    margin-top: 20px;
+}
+.second-list li::marker{
+    content: "•       ";
+    color: #854632;
+}
+h2{
+    color: #854632;
+    font-family: 'outfit', sans-serif;
+    margin-right: 550px;
+}
+.list-3{
+    padding: 40px 0;
+    font-size: 15px;
+    line-height: 25px;
+}
+.ingr, .ins{
+    margin-top: 50px;
+}
+.third-list li{
+    padding: 5px 0;
+    
+}
+.third-list{
+    list-style-position: outside;
+   margin-left: 32px;
+}
+
+.third-list li {
+    padding-left: 55px;
+    
+}
+li::marker{
+    color: #854632;
+    font-weight: bold;
+}
+.ntr{
+    margin-right: 600px;
+}
+ .tbl{
+    margin-right: 120px;
+   padding: 20px 0;
+    
+}
+table{
+    width: 100%;
+    
+    
+}
+td {
+    border-bottom: 1px solid #5f574e;
+    height: 30px;
+    padding: 10px;
+    padding-left: 40px;
+    color: #5f574e;
+}
+span{
+    color: #854632;
+}
+
+@media (max-width: 375px) {
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: left;
+        align-items: left;
+    }
+    img{
+        width: 50%;
+        
+    }
+}
